@@ -1,0 +1,29 @@
+html, body {
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+table {
+ width: 100%;
+ height: 100%;
+ border-collapse: collapse;
+}
+
+td {
+ width: 50%;
+ height: 50%;
+ border: 1px solid black;
+}
+
+td:first-child {
+ background-color: aqua;
+}
+
+td:last-child {
+ background-color: blueviolet;
+}
+
+p {
+ text-align: left;
+}

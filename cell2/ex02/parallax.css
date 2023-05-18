@@ -1,0 +1,38 @@
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .layer1 {
+    background-image: url('https://static.wikia.nocookie.net/memes-pedia/images/1/1d/Que_pro.jpg/revision/latest/scale-to-width-down/1200?cb=20211021145418&path-prefix=es');
+  }
+  
+  .layer2 {
+    background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/infobae/TQVKSCGJMFASPEVI3RZMJLCNGM.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .layer2 h2 {
+    font-size: 36px;
+  }
+  
+  .layer2 p {
+    font-size: 18px;
+  }
+  
